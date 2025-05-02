@@ -1,0 +1,49 @@
+body {
+  background: #04152d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.contactBtn {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.heroImg {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+#about {
+  background-color: rgba(12, 12, 12, 0.6);
+}
+
+.aboutItem {
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+.aboutItem:hover {
+  background-size: 100% 100%;
+}

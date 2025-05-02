@@ -7,11 +7,17 @@ import DotNet from "../assets/dotnet.png";
 import Bootstrap from "../assets/bootstrap.png";
 import ReactImg from "../assets/react.png";
 import Figma from "../assets/figma.png";
+import Vite from "../assets/vite-js-logo.svg";
+import Js from "../assets/js.webp"
+import Git from "../assets/git.png"
+import GitHub from "../assets/github.png"
 
 const Experiencia = () => {
   return (
     <div>
-      <h2 className="fs-1 fw-bolder text-uppercase mb-5 p-5 text-light">Experiência</h2>
+      <h2 className="fs-1 fw-bolder text-uppercase mb-5 p-5 text-light">
+        Experiência
+      </h2>
       <section className="container mt-5 z-1">
         <div className="text-light">
           <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-4 justify-content-center">
@@ -34,6 +40,19 @@ const Experiencia = () => {
                 <div className="card-body d-flex flex-column align-items-center p-3 border rounded shadow-sm bg-dark bg-opacity-25">
                   <img src={Css} alt="CSS" className="htmlImg img-fluid mb-2" />
                   <h6 className="mt-2 mb-0 text-light">CSS</h6>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card border-0 bg-transparent text-center">
+                <div className="card-body d-flex flex-column align-items-center p-3 border rounded shadow-sm bg-dark bg-opacity-25">
+                  <img
+                    src={Js}
+                    alt="JavaScript"
+                    className="htmlImg img-fluid mb-2"
+                  />
+                  <h6 className="mt-2 mb-0 text-light">Javascript</h6>
                 </div>
               </div>
             </div>
@@ -94,11 +113,50 @@ const Experiencia = () => {
               <div className="card border-0 bg-transparent text-center">
                 <div className="card-body d-flex flex-column align-items-center p-3 border rounded shadow-sm bg-dark bg-opacity-25">
                   <img
+                    src={Vite}
+                    alt="Vite"
+                    className="figmaImg img-fluid mb-2"
+                  />
+                  <h6 className="mt-2 mb-0 text-light">ReactVite</h6>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card border-0 bg-transparent text-center">
+                <div className="card-body d-flex flex-column align-items-center p-3 border rounded shadow-sm bg-dark bg-opacity-25">
+                  <img
                     src={Figma}
                     alt="Figma"
                     className="figmaImg img-fluid mb-2"
                   />
                   <h6 className="mt-2 mb-0 text-light">Figma</h6>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card border-0 bg-transparent text-center">
+                <div className="card-body d-flex flex-column align-items-center p-3 border rounded shadow-sm bg-dark bg-opacity-25">
+                  <img
+                    src={Git}
+                    alt="Git"
+                    className="figmaImg img-fluid mb-2"
+                  />
+                  <h6 className="mt-2 mb-0 text-light">Git</h6>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card border-0 bg-transparent text-center">
+                <div className="card-body d-flex flex-column align-items-center p-3 border rounded shadow-sm bg-dark bg-opacity-25">
+                  <img
+                    src={GitHub}
+                    alt="GitHub"
+                    className="figmaImg img-fluid mb-2"
+                  />
+                  <h6 className="mt-2 mb-0 text-light">GitHub</h6>
                 </div>
               </div>
             </div>

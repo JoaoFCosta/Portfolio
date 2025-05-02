@@ -91,7 +91,7 @@ const Experiencia = () => {
                   alt="React"
                   className="bootstrapImg img-fluid mb-2"
                 />
-                <h6 className="mt-2 mb-0 text-light">Bootstrap</h6>
+                <h6 className="mt-2 mb-0 text-light">React</h6>
               </div>
             </div>
           </div>

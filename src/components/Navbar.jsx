@@ -1,10 +1,10 @@
 import React from "react";
 
-import { Link } from 'react-router'
+import { Link } from "react-router";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-transparent pt-4 mx-5 z-2 position-relative">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-transparent pt-4 mx-5 z-2 position-relative border-bottom">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand fs-1 fw-bolder text-light">
           Portfolio
@@ -30,13 +30,23 @@ const Navbar = () => {
         >
           <ul className="navbar-nav gap-3">
             <li className="nav-item">
-              <Link to="/" className="nav-link fs-4 text-light">
-                Home
-              </Link>
+              <a
+                href="https://linkedin.com/in/joaorfcosta"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-link fs-4 text-light"
+              >
+                Linkedin
+              </a>
             </li>
             <li className="nav-item">
-              <a href="#sobre" className="nav-link fs-4 text-light">
-                Sobre
+              <a
+                href="https://github.com/JoaoFCosta?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-link fs-4 text-light"
+              >
+                Projetos
               </a>
             </li>
           </ul>

@@ -1,5 +1,7 @@
 import React from "react";
 
+import ShibaInu from "../assets/Shibainu.png"
+
 const Sobre = () => {
   return (
     <section
@@ -12,7 +14,7 @@ const Sobre = () => {
         {/* Imagem */}
         <div className="col-12 col-md-5 text-center mb-4 mb-md-0">
           <img
-            src="https://placehold.co/400x400"
+            src={ShibaInu}
             alt="Foto de perfil"
             className="img-fluid rounded-circle"
           />

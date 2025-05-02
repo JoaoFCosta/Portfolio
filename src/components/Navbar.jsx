@@ -31,22 +31,20 @@ const Navbar = () => {
           <ul className="navbar-nav gap-3">
             <li className="nav-item">
               <a
+                href="https://github.com/joaofcosta"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-light text-decoration-none me-3"
+              >
+                <i className="bi bi-github fs-2"></i>
+              </a>
+              <a
                 href="https://linkedin.com/in/joaorfcosta"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="nav-link fs-4 text-light"
+                className="text-light text-decoration-none"
               >
-                Linkedin
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="https://github.com/JoaoFCosta?tab=repositories"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-link fs-4 text-light"
-              >
-                Projetos
+                <i className="bi bi-linkedin fs-2"></i>
               </a>
             </li>
           </ul>

@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row justify-content-between align-items-center">
           {/* Nome/Logo */}
           <div className="col-md-4 text-center text-md-start mb-3 mb-md-0">
-            <h5 className="fw-bold">João Fiamengui</h5>
+            <h5 className="fw-bold">JoãoFCosta</h5>
           </div>
 
           {/* Redes sociais */}
@@ -19,7 +19,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-light text-decoration-none me-3"
             >
-              <i className="bi bi-github fs-5"></i>
+              <i className="bi bi-github fs-2"></i>
             </a>
             <a
               href="https://linkedin.com/in/joaorfcosta"
@@ -27,7 +27,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-light text-decoration-none"
             >
-              <i className="bi bi-linkedin fs-5"></i>
+              <i className="bi bi-linkedin fs-2"></i>
             </a>
           </div>
         </div>

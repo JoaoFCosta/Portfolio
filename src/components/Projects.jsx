@@ -27,7 +27,7 @@ const Projects = () => {
       <h2 className="text-start mb-5 fw-bolder text-light fs-1 text-uppercase p-5">
         Meus projetos
       </h2>
-      <section className="my-5" id="projetos">
+      <section className="my-5 overflow-hidden" id="projetos">
         <div className="row align-items-center text-light">
           <div className="cardBg p-5 row mx-4">
             {projetos.map((projeto, index) => (

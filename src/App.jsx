@@ -3,6 +3,7 @@ import Experiencia from "./components/Experiencia";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 import Sobre from "./components/Sobre";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Sobre />
       <Experiencia />
+      <Projects />
       <Footer />
     </>
   );

@@ -13,7 +13,7 @@ const Hero = () => {
           </p>
           <a
             href="mailto:joaofiamenguicosta@gmail.com"
-            className="btn btn-primary fs-5 fw-bold px-4 py-2 text-decoration-none rounded-pill"
+            className="btn text-light fs-5 border "
           >
             Entre em Contato
           </a>

@@ -11,6 +11,7 @@ import Vite from "../assets/vite-js-logo.svg";
 import Js from "../assets/js.webp"
 import Git from "../assets/git.png"
 import GitHub from "../assets/github.png"
+import Esp32 from "../assets/ESP32-C5_L_0.png"
 
 const Experiencia = () => {
   return (
@@ -157,6 +158,19 @@ const Experiencia = () => {
                     className="figmaImg img-fluid mb-2"
                   />
                   <h6 className="mt-2 mb-0 text-light">GitHub</h6>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card border-0 bg-transparent text-center">
+                <div className="card-body d-flex flex-column align-items-center p-3 border rounded shadow-sm bg-dark bg-opacity-25">
+                  <img
+                    src={Esp32}
+                    alt="ESP32"
+                    className="figmaImg img-fluid mb-2"
+                  />
+                  <h6 className="mt-2 mb-0 text-light">ESP32</h6>
                 </div>
               </div>
             </div>
